@@ -1,8 +1,8 @@
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
 
-import ShoppingCart from "./src/screens/ShoppingCart";
+import Routes from './src/Routes';
 
 export default function App() {
-  return <ShoppingCart />
+  return <Routes />
 }
