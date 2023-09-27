@@ -60,7 +60,7 @@ export default function Item({ name, price, description }: ItemProps) {
                         }</Text>
                     </View>
                 </View>
-                <Button value="Adicionar" action={() => { alert('Obrigado pela compra! Estaremos realizando o seu serviço o mais breve possível :)'); }} />
+                <Button value="Adicionar ao Carrinho" action={() => { alert('Obrigado pela compra! Estaremos realizando o seu serviço o mais breve possível :)'); }} />
             </View>
             }
             <View style={styles.divider} />
