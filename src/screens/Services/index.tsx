@@ -1,7 +1,5 @@
 import { FlatList } from "react-native";
 
-import DefaultScreen from "../../components/DefaultScreen";
-
 import Item from "./Item";
 
 const listServices = [
@@ -29,13 +27,13 @@ const listServices = [
 
 export default function Services() {
     return (
-        <DefaultScreen>
+        <>
             <FlatList
                 data={listServices}
                 removeClippedSubviews={false}
                 renderItem={({ item }) => <Item {...item} />}
                 keyExtractor={({ id }) => String(id)}
             />
-        </DefaultScreen>
+        </>
     );
 }

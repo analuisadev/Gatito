@@ -1,6 +1,6 @@
 import { StyleSheet, TextStyle, ViewStyle } from 'react-native';
 
-import { colors } from '../../styles';
+import { colors } from '../../globalStyles';
 
 interface ButtonStyles {
   buttonStyle: ViewStyle;

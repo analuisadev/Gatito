@@ -16,15 +16,16 @@ interface ItemProps {
 export default function Item({ name, price, description }: ItemProps) {
     const [quantity, setQuantity] = useState<number>(1);
     const [total, setTotal] = useState<number>(price);
+    
     const [expand, setExpand] = useState<boolean>(false);
 
-    const updateAmountAndTotal = (newAmount: any) => {
+    const updateAmountAndTotal = (newAmount: number) => {
         setQuantity(newAmount);
 
         calculateTotal(newAmount)
     };
 
-    const calculateTotal = (newAmount: any) => setTotal(newAmount * price);
+    const calculateTotal = (newAmount: number) => setTotal(newAmount * price);
 
     const invertExpand = () => {
         setExpand(!expand);

@@ -1,6 +1,6 @@
 import { TextInput } from "react-native";
 
-import defaultStyles from './styles'
+import defaultStyles from './styles';
 
 export default function EntireFile({ value, styles, action }: any) {
     const update = (newValue, returnAction) => {

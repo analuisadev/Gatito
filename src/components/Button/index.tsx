@@ -6,7 +6,7 @@ interface ButtonProps {
     small?: boolean;
     inverted?: boolean;
     value: string;
-    action: () => void;
+    action?: () => void;
     styles?: any;
 }
 
