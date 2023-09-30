@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Ecommerce App, é uma aplicação feita em React Native que simula um e-commerce. A ideia é usar o Context API, do react, para ver a vantagem de se ter estados globais na aplicação. Também é usado o AsyncStorage para a persistência dos dados.
+O Gatito, é uma aplicação feita em React Native que simula um e-commerce. A ideia é usar o React Navigation, do react native, para ver a vantagem na mudanças de telas de um aplicativo mobile.
 
 ## ⚠ Como usar
 
@@ -34,7 +34,7 @@ No terminal, digite os comandos a seguir:
 
 ```bash
 # Clonar esse repositório
-$ git clone https://github.com/analuisadev/E-Commerce.git
+$ git clone https://github.com/analuisadev/Gatito.git
 
 # Vá para o ropositório
 $ cd ecommerce
@@ -46,7 +46,7 @@ $ npm install
 ### Executar o Mobile
 
 ```bash
-# Execute em outro terminal (dentro da pasta ecommerce)
+# Execute em outro terminal (dentro da pasta gatito)
 $ npx expo
 ```
 ## :memo: Licença
