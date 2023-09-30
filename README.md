@@ -37,7 +37,7 @@ No terminal, digite os comandos a seguir:
 $ git clone https://github.com/analuisadev/Gatito.git
 
 # Vá para o ropositório
-$ cd ecommerce
+$ cd gatito
 
 # Instale as dependências
 $ npm install
